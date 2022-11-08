@@ -37,26 +37,29 @@
               <a href="index.html" class="link">Контакти</a>
             </li>
           </ul>
-          </nav>
+        </nav>
         <ul class="contacts-nav list">
-          <li class="point">
-            <a href="“mailto:info@devstudio.com”" class="contacts">
-              <svg class="contact-icon list" width="16px" height="12px">
-                <use href="./images/icons.svg.svg#icon-mail"></use>
-              </svg>
-              info@devstudio.com</a
-            >
-          </li>
-          <li class="point">
-            <a href="“tel:+380961111111”" class="contacts">
-              <svg class="contact-icon list" width="16px" height="12px">
-                <use href="./images/icons.svg.svg#icon-smartphone"></use>
-              </svg>
-              +380961111111</a
-            >
-          </li>
+          <div class="contact">
+            <li class="point">
+              <a href="“mailto:info@devstudio.com”" class="contacts-mail link">
+                <svg class="contact-icon link" width="16" height="12">
+                  <use href="./images/icons.svg#icon-mail"></use>
+                </svg>
+                <span class="contact-info"> info@devstudio.com </span>
+              </a>
+            </li>
+            <li class="point">
+              <a href="“tel:+380961111111”" class="contacts-tel link">
+                <svg class="contact-icon link" width="16" height="12">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                <span class="contact-info"> +380961111111 </span>
+              </a>
+            </li>
+          </div>
         </ul>
       </div>
+    </header>
     <main>
       <section class="applications">
         <div class="container">
@@ -80,7 +83,7 @@
           </ul>
           <ul class="applications-list list">
             <li class="point">
-              <a href="#">
+              <a class="card" href="#">
                 <img
                   class="image"
                   src="images/image1.jpg"
@@ -95,7 +98,7 @@
               </a>
             </li>
             <li class="point">
-              <a href="#">
+              <a class="card" href="#">
                 <img
                   class="image"
                   src="./images/image2.jpg"
@@ -110,7 +113,7 @@
               </a>
             </li>
             <li class="point">
-              <a href="#">
+              <a class="card" href="#">
                 <img
                   class="image"
                   src="./images/image3.jpg"
@@ -125,7 +128,7 @@
               </a>
             </li>
             <li class="point">
-              <a href="#">
+              <a class="card" href="#">
                 <img
                   class="image"
                   src="./images/image4.jpg"
@@ -140,7 +143,7 @@
               </a>
             </li>
             <li class="point">
-              <a href="#">
+              <a class="card" href="#">
                 <img
                   class="image"
                   src="./images/image5.jpg"
@@ -155,7 +158,7 @@
               </a>
             </li>
             <li class="point">
-              <a href="#">
+              <a class="card" href="#">
                 <img
                   class="image"
                   src="./images/image6.jpg"
@@ -170,7 +173,7 @@
               </a>
             </li>
             <li class="point">
-              <a href="#">
+              <a class="card" href="#">
                 <img
                   class="image"
                   src="./images/image7.jpg"
@@ -185,7 +188,7 @@
               </a>
             </li>
             <li class="point">
-              <a href="#">
+              <a class="card" href="#">
                 <img
                   class="image"
                   src="./images/image8.jpg"
@@ -200,7 +203,7 @@
               </a>
             </li>
             <li class="point">
-              <a href="#">
+              <a class="card" href="#">
                 <img
                   class="image"
                   src="./images/image9.jpg"
@@ -219,64 +222,64 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <a href="index.html" class="logo"
-          >Web<span class="studio">Studio</span></a
-        >
-        <address>
-          <ul class="contact list">
-            <li class="address-footer list">
-              <a
-                href="https://goo.gl/maps/FLeEGHx3J3ZAgPzL9"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
+      <div class="container-footer">
+        <div class="footer-contact">
+          <a href="index.html" class="logo"
+            >Web<span class="studio">Studio</span></a
+          >
+          <address>
+            <ul class="footer-contact list">
+              <li class="address-footer list">
+                <a
+                  href="https://goo.gl/maps/FLeEGHx3J3ZAgPzL9"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="mailme-footer list">
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="contacts-footer list">
+                <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social">
+          <strong class="second-section">приєднуйтесь</strong>
+          <ul class="social-list list">
+            <li class="social-item">
+              <a href="" class="social-link-footer">
+                <svg class="icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="mailme-footer list">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li class="social-item">
+              <a href="" class="social-link-footer">
+                <svg class="icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="contacts-footer list">
-              <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+            <li class="social-item">
+              <a href="" class="social-link-footer">
+                <svg class="icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link-footer">
+                <svg class="icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
-      </div>
-      <div class="footer-social">
-        <h2 class="second-title">приєднуйтесь</h2>
-        <ul class="social-list list">
-          <li class="social-item">
-            <a href="" class="social-link">
-              <svg class="" width="20px" height="20px">
-                <use href="./images/icons.svg.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="" class="social-link">
-              <svg class="" width="20px" height="20px">
-                <use href="./images/icons.svg.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="" class="social-link">
-              <svg class="" width="20px" height="20px">
-                <use href="./images/icons.svg.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="" class="social-link">
-              <svg class="" width="20px" height="20px">
-                <use href="./images/icons.svg.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </footer>
   </body>
 </html>
-
-
