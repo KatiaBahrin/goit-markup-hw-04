@@ -150,11 +150,11 @@ header {
 
 .contact-icon {
   margin-right: 10px;
-  fill: #757575;
+  fill: currentColor;
 }
 
-.contacts-header .link:hover {
-  fill: #2196f3;
+.contacts-header:hover {
+  color: #2196f3;
 }
 
 .contact {
@@ -352,16 +352,13 @@ header {
   padding: 0;
 }
 
-.social-item + .social-item {
-  margin-left: 10px;
-}
-
 .social-item {
   width: 44px;
   height: 44px;
 }
 
 .social-link {
+  color: var(--icon-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -371,12 +368,12 @@ header {
   border-radius: 50%;
 }
 .social-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 .social-link:hover {
   background-color: var(--accent-color);
-  fill: #ffffff;
+  color: #ffffff;
 }
 
 .clients-section {
@@ -407,6 +404,7 @@ header {
 }
 
 .clients-link {
+  color: var(--icon-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -416,11 +414,11 @@ header {
 }
 
 .clients-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 .clients-link:hover {
   border: 1px solid var(--accent-color);
-  fill: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /*FOOTER*/
